@@ -1,0 +1,41 @@
+
+.best{
+    color:  rgb(10, 8, 8);
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.brand-grid-container {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+  }
+  
+  .brand-card-container {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .brand-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image fills the container */
+  }
+  
+  /* Media queries for responsiveness */
+  @media (max-width: 768px) {
+    .brand-grid-container {
+      grid-template-rows: repeat(2,1fr);
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .brand-grid-container {
+      grid-template-columns: repeat(1,1fr);
+    }
+  }
+  

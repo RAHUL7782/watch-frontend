@@ -1,0 +1,24 @@
+
+.videohap{
+    color: rgb(7, 8, 9);
+    background: white;
+    text-align: center;
+    /* margin-top: 10px; */
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+}
+
+.home-video{
+    height: auto;
+     width: 100%;
+     height:  40vw;
+     background-color: black;
+     overflow: hidden;
+     /* border-radius: 5px; */
+ }
+ .home-videos{
+ object-fit: cover;
+ 
+ }
+

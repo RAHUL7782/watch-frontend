@@ -1,0 +1,80 @@
+/* Brands.css */
+
+.brands-container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  /* Style for the hr */
+  hr {
+    margin-top: 20px;
+  }
+  
+  /* Style for the brand form */
+  .brand-form {
+    margin-bottom: 20px;
+  }
+  
+  .brand-form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .brand-form input,
+  .brand-form select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .brand-form button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+  }
+  
+  .brand-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Style for the brands table */
+  .brands-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .brands-table th,
+  .brands-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+  }
+  
+  .brands-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .brands-table tbody tr:hover {
+    background-color: #f5f5f5;
+  }
+  
+  .brands-table td button {
+    background-color: #dc3545;
+    color: #fff;
+    padding: 8px;
+    cursor: pointer;
+    border: none;
+  }
+  
+  .brands-table td button:hover {
+    background-color: #c82333;
+  }
+  

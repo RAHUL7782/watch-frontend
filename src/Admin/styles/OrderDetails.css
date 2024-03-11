@@ -1,0 +1,64 @@
+/* OrderDetails.css */
+
+.order-details {
+    padding: 20px;
+  }
+  
+  .back-link {
+    display: inline-block;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+  }
+  
+  .order-details p {
+    margin: 10px 0;
+  }
+  
+  .order-products-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .order-products-table th, .order-products-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .order-products-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .download-pdf-btn {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .update-status-box {
+    margin-top: 20px;
+  }
+  
+  .update-status-box h1 {
+    margin-bottom: 10px;
+  }
+  
+  .update-status-box select {
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .update-status-box button {
+    padding: 10px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  

@@ -1,0 +1,33 @@
+
+.shopheading{
+    color: rgb(3, 15, 145);
+    text-align: center;
+    padding: 5px;
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.shopheading1 {
+   display: flex;
+  
+   justify-content: center;
+   /* border: 1px solid black; */
+   
+}
+.shopheading1 img{
+   
+    width: 100%;
+    box-shadow: 0px 0px 50px 0px rgba(255, 0, 0, 0);
+    margin-top: 10px;
+    padding: 20px;
+
+    
+}
+@media (max-width: 500px){
+    .shopheading1 img{
+        width: 100%;
+        
+    }
+}
+
+

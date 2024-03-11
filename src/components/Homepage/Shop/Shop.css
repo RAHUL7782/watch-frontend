@@ -1,0 +1,52 @@
+.shop-container {
+    width: 100%; /* Increase the max-width as needed */
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Existing styles remain unchanged */
+  .cart-table {
+    width: 100%;
+    border-collapse: collapse;
+   
+  }
+  
+  .cart-table th,
+  .cart-table td {
+    padding: 8px;
+    border: 1px solid #ddd;
+    text-align: left;
+    
+    text-align: center;
+  }
+  
+  .cart-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .quantity-button,
+  .delete-button {
+    padding: 5px 10px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+  
+  .quantity {
+    margin: 0 5px;
+  }
+  
+  .total-wrapper {
+    margin-top: 20px;
+  }
+  
+  .proceed-button {
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  

@@ -1,0 +1,57 @@
+/* Men.css */
+.men-container {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    font-size: 30px;
+    
+  }
+  
+  .men-title {
+    margin-right: 20px; /* Adjust the margin as needed */
+  }
+  
+  .middle-content {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px; /* Add some top margin for spacing */
+  }
+  
+  .category {
+    margin: 0 10px; /* Adjust the margin as needed */
+  }
+  
+  /* Media query for screens smaller than 600px */
+  @media (max-width: 600px) {
+    .men-container {
+      flex-direction: column; /* Stack items vertically */
+      align-items: center; /* Center items horizontally */
+    }
+  
+    .men-title {
+      margin-bottom: 10px; /* Add bottom margin for spacing */
+    }
+  
+    .middle-content {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+  
+
+  }
+
+  .category-link {
+    text-decoration: none; /* Remove underline */
+    color: #333; /* Set the default text color */
+    transition: color 0.3s; /* Add a smooth transition effect for color changes */
+  }
+  
+  .category-link:hover {
+    color: #007bff; /* Change color on hover to a better color */
+  }
+  
+  .category {
+    /* Your existing styles for category */
+  }

@@ -1,0 +1,32 @@
+.top-video video
+{ 
+    width: 100%;
+}
+.below-video
+{
+    text-align: center;
+    margin: auto; 
+    max-width: 80%;
+    padding: 1%;
+}
+.below-video h1 {
+    font-family: 'Concert One', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;
+    
+}
+.below-video a
+{
+    color: white;
+    background-color: black;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 30px;
+    font-size: 20px;
+    text-decoration: none;
+    
+}
+.grid-start
+{
+
+}

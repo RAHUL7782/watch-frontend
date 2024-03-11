@@ -1,0 +1,88 @@
+/* TwoDisplay.css */
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px; /* Adjust the gap between grid items */
+    margin-top: 20px;
+  }
+  
+  .item {
+    position: relative;
+  }
+  
+  .image {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .textOverlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(12, 12, 12);
+    background: linear-gradient(45deg, #6bff9a, #556270);
+    border-radius: 25px;
+    padding: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+  }
+  
+/* TwoDisplay.css */
+.shopButton {
+    display: block;
+    margin: 10px auto; /* Center the button below the text */
+    padding: 12px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    width: 50%;
+  }
+  
+  .shopButton:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+  }
+  
+  
+  @media (max-width: 500px) {
+    .container {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+    }
+    .textOverlay
+    {
+      font-size: 18px;
+      border-radius: 10px;
+      background: linear-gradient(45deg, #6b7aff, #ce1414);
+    }
+    .shopButton
+    {
+      background-color: #007bff;
+      width: 50%;
+    }
+    
+  }
+/* Your CSS */
+.vid-next img {
+   
+    width: 80%;
+    
+  }
+
+  @media (max-width: 500px) {
+    .vid-next img {
+   
+      width: 100%;
+      
+    }
+  }

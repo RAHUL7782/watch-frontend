@@ -1,0 +1,9 @@
+
+.Collection{
+    /* color:  rgb(10, 8, 8); */
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+}

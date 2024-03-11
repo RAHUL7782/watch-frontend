@@ -1,0 +1,52 @@
+/* Home.css */
+
+/* Styles for the Home component */
+div {
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Styles for the Box component */
+  .Box {
+    padding: 20px;
+    margin: 10px; /* Adjust the margin to control the gap */
+    display: flex;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow */
+    border-radius: 10px; /* Rounded corners */
+  }
+  
+  .Box1 {
+    border: 2px solid #e74c3c; /* Pink color */
+    background-color: #fce4ec; /* Light pink background */
+    color: #e74c3c; /* Icon and text color */
+  }
+  
+  .Box2 {
+    border: 2px solid #3498db; /* Blue color */
+    background-color: #eaf2f8; /* Light blue background */
+    color: #3498db; /* Icon and text color */
+  }
+  
+  .Box3 {
+    border: 2px solid #e67e22; /* Orange color */
+    background-color: #fde3a7; /* Light orange background */
+    color: #e67e22; /* Icon and text color */
+  }
+  
+  /* Styles for the container of the boxes */
+  .BoxContainer {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  /* Styles for the icons */
+  .Box svg {
+    width: 32px;
+    height: 32px;
+    fill: currentColor; /* Icon color */
+  }

@@ -1,0 +1,66 @@
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(6, 5, 5, 0.5);
+    /* border: 3px solid red; */
+}
+
+.shipping-details {
+    margin-bottom: 20px;
+}
+
+.input-field {
+    width: calc(100% - 70px);
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.input-field:focus {
+    outline: none;
+    border-color: #85b7d9;
+}
+
+.payment-options {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    border: 3px solid red;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+.payment-radio input[type="radio"] {
+    margin-right: 10px;
+}
+
+.make-payment-btn {
+    background-color: #007bff;
+    color: #ab2020;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* .make-payment-btn:hover {
+    background-color: #0056b3;
+    color: #fff;
+}  */
+
+@media (max-width: 768px) {
+    .input-field {
+        width: 100%;
+    }
+
+    .payment-radio input[type="radio"] {
+        display: block;
+        margin-bottom: 10px;
+    }
+}
